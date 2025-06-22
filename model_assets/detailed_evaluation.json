@@ -1,0 +1,5640 @@
+{
+  "overall_metrics": {
+    "num_test_cases": 181,
+    "num_valid_cases": 171,
+    "mrr": 0.03333333333333333,
+    "recall": {
+      "recall@1": 0.023391812865497075,
+      "recall@3": 0.04093567251461988,
+      "recall@5": 0.04678362573099415
+    },
+    "precision": {
+      "precision@1": 0.023391812865497075,
+      "precision@3": 0.04093567251461988,
+      "precision@5": 0.04678362573099415
+    }
+  },
+  "by_type": {
+    "exact_match": {
+      "correct": 4,
+      "total": 40,
+      "mrr": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.2,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "accuracy": 0.1,
+      "avg_mrr": 0.14250000000000002
+    },
+    "paraphrase": {
+      "correct": 0,
+      "total": 65,
+      "mrr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "accuracy": 0.0,
+      "avg_mrr": 0.0
+    },
+    "semantic_variation": {
+      "correct": 0,
+      "total": 66,
+      "mrr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "accuracy": 0.0,
+      "avg_mrr": 0.0
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "correct": 4,
+      "total": 40,
+      "mrr": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.2,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "accuracy": 0.1,
+      "avg_mrr": 0.14250000000000002
+    },
+    "medium": {
+      "correct": 0,
+      "total": 131,
+      "mrr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "accuracy": 0.0,
+      "avg_mrr": 0.0
+    }
+  },
+  "error_analysis": [
+    {
+      "query": "Anxiety has been consuming my thoughts and making it increasingly challenging to carry out daily tas...",
+      "expected_id": 6717,
+      "predicted_id": 4562,
+      "expected_similarity": 0.7073331475257874,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          4562,
+          0.7073331475257874
+        ],
+        [
+          4480,
+          0.7026776075363159
+        ],
+        [
+          2037,
+          0.6891766786575317
+        ]
+      ]
+    },
+    {
+      "query": "Depression has left me feeling emotionally numbed and isolated from those around me.",
+      "expected_id": 5356,
+      "predicted_id": 966,
+      "expected_similarity": 0.7581468224525452,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          966,
+          0.7581468224525452
+        ],
+        [
+          1203,
+          0.7382210493087769
+        ],
+        [
+          1318,
+          0.7371530532836914
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 207,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I'm a new parent and I'm feeling overwhelmed with all the responsibilities and challenges that come ...",
+      "expected_id": 7048,
+      "predicted_id": 8032,
+      "expected_similarity": 0.773621678352356,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          8032,
+          0.773621678352356
+        ],
+        [
+          607,
+          0.7466650009155273
+        ],
+        [
+          9309,
+          0.7307847738265991
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 5212,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I need help with lately,",
+      "expected_id": 8228,
+      "predicted_id": 6919,
+      "expected_similarity": 0.38444530963897705,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6919,
+          0.38444530963897705
+        ],
+        [
+          5389,
+          0.3838294744491577
+        ],
+        [
+          9078,
+          0.38009554147720337
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with depression",
+      "expected_id": 9349,
+      "predicted_id": 6919,
+      "expected_similarity": 0.7431449890136719,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6919,
+          0.7431449890136719
+        ],
+        [
+          5975,
+          0.6890012621879578
+        ],
+        [
+          2488,
+          0.6881258487701416
+        ]
+      ]
+    },
+    {
+      "query": "I feel like I'm always sad",
+      "expected_id": 8709,
+      "predicted_id": 4220,
+      "expected_similarity": 0.6449025869369507,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          4220,
+          0.6449025869369507
+        ],
+        [
+          2227,
+          0.6153601408004761
+        ],
+        [
+          3763,
+          0.6139659881591797
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with i?",
+      "expected_id": 2886,
+      "predicted_id": 8410,
+      "expected_similarity": 0.3358103036880493,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8410,
+          0.3358103036880493
+        ],
+        [
+          9458,
+          0.33554166555404663
+        ],
+        [
+          9363,
+          0.3283393979072571
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with in?",
+      "expected_id": 7217,
+      "predicted_id": 8007,
+      "expected_similarity": 0.2984951138496399,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8007,
+          0.2984951138496399
+        ],
+        [
+          9238,
+          0.2701457738876343
+        ],
+        [
+          7861,
+          0.2682783901691437
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with i've?",
+      "expected_id": 7248,
+      "predicted_id": 8402,
+      "expected_similarity": 0.33125028014183044,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8402,
+          0.33125028014183044
+        ],
+        [
+          8217,
+          0.31067508459091187
+        ],
+        [
+          8410,
+          0.31002122163772583
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 9678,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I often struggle with intrusive thoughts and excessive worry about things beyond my control.",
+      "expected_id": 5653,
+      "predicted_id": 3415,
+      "expected_similarity": 0.8332194089889526,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          3415,
+          0.8332194089889526
+        ],
+        [
+          4217,
+          0.8246215581893921
+        ],
+        [
+          6733,
+          0.822647213935852
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 920,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 9138,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 3792,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 6001,
+      "predicted_id": 701,
+      "expected_similarity": 0.6257765293121338,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          701,
+          0.6257765293121338
+        ],
+        [
+          1512,
+          0.6163824796676636
+        ],
+        [
+          6685,
+          0.6133273839950562
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6978,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 2963,
+      "predicted_id": 7838,
+      "expected_similarity": 0.8221142888069153,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7838,
+          0.8221142888069153
+        ],
+        [
+          8888,
+          0.8120489716529846
+        ],
+        [
+          3025,
+          0.80623459815979
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6951,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Nothing makes me happy anymore",
+      "expected_id": 3641,
+      "predicted_id": 4222,
+      "expected_similarity": 0.6175518035888672,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          4222,
+          0.6175518035888672
+        ],
+        [
+          1711,
+          0.5948526263237
+        ],
+        [
+          1787,
+          0.5865646004676819
+        ]
+      ]
+    },
+    {
+      "query": "Everything is stressing me out",
+      "expected_id": 2158,
+      "predicted_id": 1640,
+      "expected_similarity": 0.6996041536331177,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          1640,
+          0.6996041536331177
+        ],
+        [
+          882,
+          0.6964439153671265
+        ],
+        [
+          1629,
+          0.6932114958763123
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1542,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 8790,
+      "predicted_id": 701,
+      "expected_similarity": 0.6257765293121338,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          701,
+          0.6257765293121338
+        ],
+        [
+          1512,
+          0.6163824796676636
+        ],
+        [
+          6685,
+          0.6133273839950562
+        ]
+      ]
+    },
+    {
+      "query": "Everything is stressing me out",
+      "expected_id": 3645,
+      "predicted_id": 1640,
+      "expected_similarity": 0.6996041536331177,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          1640,
+          0.6996041536331177
+        ],
+        [
+          882,
+          0.6964439153671265
+        ],
+        [
+          1629,
+          0.6932114958763123
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 6490,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "Anxiety continues to hold me hostage, affecting every decision and aspect of my life.",
+      "expected_id": 2373,
+      "predicted_id": 1035,
+      "expected_similarity": 0.8121062517166138,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          1035,
+          0.8121062517166138
+        ],
+        [
+          1733,
+          0.8012924194335938
+        ],
+        [
+          4141,
+          0.7979402542114258
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with i?",
+      "expected_id": 4735,
+      "predicted_id": 8410,
+      "expected_similarity": 0.3358103036880493,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8410,
+          0.3358103036880493
+        ],
+        [
+          9458,
+          0.33554166555404663
+        ],
+        [
+          9363,
+          0.3283393979072571
+        ]
+      ]
+    },
+    {
+      "query": "I am struggling to make behavioral changes related to my disordered eating habits, and I hope that t...",
+      "expected_id": 9608,
+      "predicted_id": 8461,
+      "expected_similarity": 0.6999343633651733,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          8461,
+          0.6999343633651733
+        ],
+        [
+          8846,
+          0.684647798538208
+        ],
+        [
+          8185,
+          0.6774712800979614
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 4100,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I need help with lately,",
+      "expected_id": 3252,
+      "predicted_id": 6919,
+      "expected_similarity": 0.38444530963897705,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6919,
+          0.38444530963897705
+        ],
+        [
+          5389,
+          0.3838294744491577
+        ],
+        [
+          9078,
+          0.38009554147720337
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 1131,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "As a new parent, I am experiencing feelings of overwhelm and self-doubt.",
+      "expected_id": 7282,
+      "predicted_id": 413,
+      "expected_similarity": 0.7852600812911987,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          413,
+          0.7852600812911987
+        ],
+        [
+          7283,
+          0.7715795636177063
+        ],
+        [
+          578,
+          0.7607821226119995
+        ]
+      ]
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 6259,
+      "predicted_id": 3688,
+      "expected_similarity": 0.7572409510612488,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          3688,
+          0.7572409510612488
+        ],
+        [
+          882,
+          0.7450540065765381
+        ],
+        [
+          1202,
+          0.7397615313529968
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with hello,",
+      "expected_id": 3497,
+      "predicted_id": 6916,
+      "expected_similarity": 0.3302086591720581,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6916,
+          0.3302086591720581
+        ],
+        [
+          8193,
+          0.3077612519264221
+        ],
+        [
+          6968,
+          0.2994902729988098
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2476,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with every?",
+      "expected_id": 2535,
+      "predicted_id": 8691,
+      "expected_similarity": 0.31527552008628845,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8691,
+          0.31527552008628845
+        ],
+        [
+          8487,
+          0.30668729543685913
+        ],
+        [
+          8931,
+          0.30632877349853516
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 516,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with recently,",
+      "expected_id": 2809,
+      "predicted_id": 5505,
+      "expected_similarity": 0.3941038250923157,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          5505,
+          0.3941038250923157
+        ],
+        [
+          6607,
+          0.3911939263343811
+        ],
+        [
+          9731,
+          0.3655441999435425
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 4504,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with as",
+      "expected_id": 372,
+      "predicted_id": 324,
+      "expected_similarity": 0.41501331329345703,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          324,
+          0.41501331329345703
+        ],
+        [
+          298,
+          0.31049031019210815
+        ],
+        [
+          9210,
+          0.30361509323120117
+        ]
+      ]
+    },
+    {
+      "query": "I can't stop worrying about things",
+      "expected_id": 4329,
+      "predicted_id": 6542,
+      "expected_similarity": 0.7579363584518433,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6542,
+          0.7579363584518433
+        ],
+        [
+          5790,
+          0.6883307695388794
+        ],
+        [
+          4591,
+          0.6828347444534302
+        ]
+      ]
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 3576,
+      "predicted_id": 3688,
+      "expected_similarity": 0.7572409510612488,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          3688,
+          0.7572409510612488
+        ],
+        [
+          882,
+          0.7450540065765381
+        ],
+        [
+          1202,
+          0.7397615313529968
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6858,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1553,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I need help with i",
+      "expected_id": 2882,
+      "predicted_id": 4760,
+      "expected_similarity": 0.2579733729362488,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          4760,
+          0.2579733729362488
+        ],
+        [
+          9363,
+          0.24556176364421844
+        ],
+        [
+          5490,
+          0.23887130618095398
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3231,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 8875,
+      "predicted_id": 3688,
+      "expected_similarity": 0.7572409510612488,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          3688,
+          0.7572409510612488
+        ],
+        [
+          882,
+          0.7450540065765381
+        ],
+        [
+          1202,
+          0.7397615313529968
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with i've?",
+      "expected_id": 332,
+      "predicted_id": 8402,
+      "expected_similarity": 0.33125028014183044,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8402,
+          0.33125028014183044
+        ],
+        [
+          8217,
+          0.31067508459091187
+        ],
+        [
+          8410,
+          0.31002122163772583
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with my",
+      "expected_id": 8,
+      "predicted_id": 298,
+      "expected_similarity": 0.349046528339386,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          298,
+          0.349046528339386
+        ],
+        [
+          9210,
+          0.34868109226226807
+        ],
+        [
+          8193,
+          0.34819233417510986
+        ]
+      ]
+    },
+    {
+      "query": "Everything is stressing me out",
+      "expected_id": 2942,
+      "predicted_id": 1640,
+      "expected_similarity": 0.6996041536331177,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          1640,
+          0.6996041536331177
+        ],
+        [
+          882,
+          0.6964439153671265
+        ],
+        [
+          1629,
+          0.6932114958763123
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with every?",
+      "expected_id": 4192,
+      "predicted_id": 8691,
+      "expected_similarity": 0.31527552008628845,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8691,
+          0.31527552008628845
+        ],
+        [
+          8487,
+          0.30668729543685913
+        ],
+        [
+          8931,
+          0.30632877349853516
+        ]
+      ]
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 3157,
+      "predicted_id": 3688,
+      "expected_similarity": 0.7572409510612488,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          3688,
+          0.7572409510612488
+        ],
+        [
+          882,
+          0.7450540065765381
+        ],
+        [
+          1202,
+          0.7397615313529968
+        ]
+      ]
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 1315,
+      "predicted_id": 701,
+      "expected_similarity": 0.6257765293121338,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          701,
+          0.6257765293121338
+        ],
+        [
+          1512,
+          0.6163824796676636
+        ],
+        [
+          6685,
+          0.6133273839950562
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 2474,
+      "predicted_id": 7838,
+      "expected_similarity": 0.8221142888069153,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7838,
+          0.8221142888069153
+        ],
+        [
+          8888,
+          0.8120489716529846
+        ],
+        [
+          3025,
+          0.80623459815979
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 7735,
+      "predicted_id": 7838,
+      "expected_similarity": 0.8221142888069153,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7838,
+          0.8221142888069153
+        ],
+        [
+          8888,
+          0.8120489716529846
+        ],
+        [
+          3025,
+          0.80623459815979
+        ]
+      ]
+    },
+    {
+      "query": "I need help with over",
+      "expected_id": 1366,
+      "predicted_id": 7845,
+      "expected_similarity": 0.36602845788002014,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7845,
+          0.36602845788002014
+        ],
+        [
+          3847,
+          0.3327733874320984
+        ],
+        [
+          8980,
+          0.32949087023735046
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with i've?",
+      "expected_id": 313,
+      "predicted_id": 8402,
+      "expected_similarity": 0.33125028014183044,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8402,
+          0.33125028014183044
+        ],
+        [
+          8217,
+          0.31067508459091187
+        ],
+        [
+          8410,
+          0.31002122163772583
+        ]
+      ]
+    },
+    {
+      "query": "\"My marriage has hit a rough patch recently.",
+      "expected_id": 6964,
+      "predicted_id": 9038,
+      "expected_similarity": 0.7446732521057129,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          9038,
+          0.7446732521057129
+        ],
+        [
+          9450,
+          0.668590784072876
+        ],
+        [
+          6965,
+          0.6546728610992432
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 8096,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with i?",
+      "expected_id": 657,
+      "predicted_id": 8410,
+      "expected_similarity": 0.3358103036880493,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8410,
+          0.3358103036880493
+        ],
+        [
+          9458,
+          0.33554166555404663
+        ],
+        [
+          9363,
+          0.3283393979072571
+        ]
+      ]
+    },
+    {
+      "query": "Lately, anxiety has consumed my thoughts and actions at an alarming rate.",
+      "expected_id": 5829,
+      "predicted_id": 2144,
+      "expected_similarity": 0.7906104922294617,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2144,
+          0.7906104922294617
+        ],
+        [
+          6692,
+          0.7782799005508423
+        ],
+        [
+          742,
+          0.7732736468315125
+        ]
+      ]
+    },
+    {
+      "query": "Hello, I hope our counseling sessions can assist me with some parenting challenges I've been facing.",
+      "expected_id": 9381,
+      "predicted_id": 8874,
+      "expected_similarity": 0.7804064750671387,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          8874,
+          0.7804064750671387
+        ],
+        [
+          8151,
+          0.7362170219421387
+        ],
+        [
+          8155,
+          0.7161338329315186
+        ]
+      ]
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 4274,
+      "predicted_id": 701,
+      "expected_similarity": 0.6257765293121338,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          701,
+          0.6257765293121338
+        ],
+        [
+          1512,
+          0.6163824796676636
+        ],
+        [
+          6685,
+          0.6133273839950562
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 748,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with \"my?",
+      "expected_id": 8905,
+      "predicted_id": 7860,
+      "expected_similarity": 0.38757261633872986,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7860,
+          0.38757261633872986
+        ],
+        [
+          8708,
+          0.3634205460548401
+        ],
+        [
+          8274,
+          0.3616464138031006
+        ]
+      ]
+    },
+    {
+      "query": "I'm under too much pressure",
+      "expected_id": 3491,
+      "predicted_id": 6438,
+      "expected_similarity": 0.5488325357437134,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6438,
+          0.5488325357437134
+        ],
+        [
+          1729,
+          0.4982130229473114
+        ],
+        [
+          7155,
+          0.49095237255096436
+        ]
+      ]
+    },
+    {
+      "query": "Hey counselor, stress has been weighing me down lately, and I hope this counseling session can provi...",
+      "expected_id": 3582,
+      "predicted_id": 793,
+      "expected_similarity": 0.8195289373397827,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          793,
+          0.8195289373397827
+        ],
+        [
+          3831,
+          0.7658383846282959
+        ],
+        [
+          2322,
+          0.753569483757019
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2008,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with for?",
+      "expected_id": 2599,
+      "predicted_id": 8308,
+      "expected_similarity": 0.2925006151199341,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8308,
+          0.2925006151199341
+        ],
+        [
+          8439,
+          0.2889222502708435
+        ],
+        [
+          8689,
+          0.28332334756851196
+        ]
+      ]
+    },
+    {
+      "query": "I need help with i",
+      "expected_id": 8948,
+      "predicted_id": 4760,
+      "expected_similarity": 0.2579733729362488,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          4760,
+          0.2579733729362488
+        ],
+        [
+          9363,
+          0.24556176364421844
+        ],
+        [
+          5490,
+          0.23887130618095398
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with \"intimacy",
+      "expected_id": 8392,
+      "predicted_id": 6916,
+      "expected_similarity": 0.8048142790794373,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6916,
+          0.8048142790794373
+        ],
+        [
+          65,
+          0.7731767892837524
+        ],
+        [
+          8653,
+          0.7708082795143127
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with i've",
+      "expected_id": 4333,
+      "predicted_id": 9210,
+      "expected_similarity": 0.3125762939453125,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9210,
+          0.3125762939453125
+        ],
+        [
+          8781,
+          0.3088628649711609
+        ],
+        [
+          8390,
+          0.30697399377822876
+        ]
+      ]
+    },
+    {
+      "query": "I need help with lately,",
+      "expected_id": 3068,
+      "predicted_id": 6919,
+      "expected_similarity": 0.38444530963897705,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6919,
+          0.38444530963897705
+        ],
+        [
+          5389,
+          0.3838294744491577
+        ],
+        [
+          9078,
+          0.38009554147720337
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 7316,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 1347,
+      "predicted_id": 7838,
+      "expected_similarity": 0.8221142888069153,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7838,
+          0.8221142888069153
+        ],
+        [
+          8888,
+          0.8120489716529846
+        ],
+        [
+          3025,
+          0.80623459815979
+        ]
+      ]
+    },
+    {
+      "query": "I can't seem to get out of bed in the morning",
+      "expected_id": 805,
+      "predicted_id": 1001,
+      "expected_similarity": 0.5985221266746521,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          1001,
+          0.5985221266746521
+        ],
+        [
+          1783,
+          0.5819429755210876
+        ],
+        [
+          2018,
+          0.5790442228317261
+        ]
+      ]
+    },
+    {
+      "query": "I need help with the",
+      "expected_id": 8552,
+      "predicted_id": 8289,
+      "expected_similarity": 0.23158133029937744,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8289,
+          0.23158133029937744
+        ],
+        [
+          2581,
+          0.2094937115907669
+        ],
+        [
+          9078,
+          0.18220922350883484
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3024,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6568,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Dear mental health professional,\r\nMy goal for today's session is to find effective parenting strateg...",
+      "expected_id": 7372,
+      "predicted_id": 7262,
+      "expected_similarity": 0.7766661643981934,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          7262,
+          0.7766661643981934
+        ],
+        [
+          8151,
+          0.7515531778335571
+        ],
+        [
+          7801,
+          0.7455787062644958
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6868,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with the?",
+      "expected_id": 885,
+      "predicted_id": 9181,
+      "expected_similarity": 0.2494322508573532,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9181,
+          0.2494322508573532
+        ],
+        [
+          8487,
+          0.2470550835132599
+        ],
+        [
+          8264,
+          0.24378831684589386
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 8344,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 5466,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Lately, I've been experiencing a deep sadness that seems to linger no matter what I do.",
+      "expected_id": 1730,
+      "predicted_id": 6725,
+      "expected_similarity": 0.7902321219444275,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          6725,
+          0.7902321219444275
+        ],
+        [
+          1853,
+          0.7850138545036316
+        ],
+        [
+          2961,
+          0.7803992629051208
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2713,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "\"Every day feels like a battle against invisible fears and worries.",
+      "expected_id": 6532,
+      "predicted_id": 5812,
+      "expected_similarity": 0.6577306389808655,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          5812,
+          0.6577306389808655
+        ],
+        [
+          5392,
+          0.652336597442627
+        ],
+        [
+          9071,
+          0.6499322652816772
+        ]
+      ]
+    },
+    {
+      "query": "Every time I think about social situations or meeting new people, I become incredibly anxious.",
+      "expected_id": 4651,
+      "predicted_id": 4216,
+      "expected_similarity": 0.8323309421539307,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          4216,
+          0.8323309421539307
+        ],
+        [
+          4651,
+          0.8160561919212341
+        ],
+        [
+          874,
+          0.8148327469825745
+        ]
+      ]
+    },
+    {
+      "query": "I'm having trouble sleeping",
+      "expected_id": 415,
+      "predicted_id": 8915,
+      "expected_similarity": 0.624091386795044,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8915,
+          0.624091386795044
+        ],
+        [
+          9098,
+          0.5979040861129761
+        ],
+        [
+          7106,
+          0.5964014530181885
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 6340,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "Everything feels overwhelming lately.",
+      "expected_id": 4464,
+      "predicted_id": 5797,
+      "expected_similarity": 0.611190915107727,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          5797,
+          0.611190915107727
+        ],
+        [
+          3337,
+          0.5959490537643433
+        ],
+        [
+          1517,
+          0.5911638736724854
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with \"i",
+      "expected_id": 7344,
+      "predicted_id": 9458,
+      "expected_similarity": 0.38996177911758423,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9458,
+          0.38996177911758423
+        ],
+        [
+          7908,
+          0.3703388571739197
+        ],
+        [
+          9181,
+          0.36525702476501465
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with greetings,?",
+      "expected_id": 4146,
+      "predicted_id": 4930,
+      "expected_similarity": 0.3790068030357361,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          4930,
+          0.3790068030357361
+        ],
+        [
+          6968,
+          0.36314040422439575
+        ],
+        [
+          2509,
+          0.3590703010559082
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3354,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 685,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5935,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 8792,
+      "predicted_id": 7838,
+      "expected_similarity": 0.8221142888069153,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7838,
+          0.8221142888069153
+        ],
+        [
+          8888,
+          0.8120489716529846
+        ],
+        [
+          3025,
+          0.80623459815979
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2931,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5269,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I've recently come to realize that I have developed an addiction to alcohol.",
+      "expected_id": 8295,
+      "predicted_id": 657,
+      "expected_similarity": 0.7252151966094971,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          657,
+          0.7252151966094971
+        ],
+        [
+          9217,
+          0.7222409844398499
+        ],
+        [
+          11,
+          0.7191168069839478
+        ]
+      ]
+    },
+    {
+      "query": "Lately, I've been questioning my beliefs and searching for a deeper sense of meaning in life.",
+      "expected_id": 251,
+      "predicted_id": 174,
+      "expected_similarity": 0.7668448686599731,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          174,
+          0.7668448686599731
+        ],
+        [
+          161,
+          0.7598388195037842
+        ],
+        [
+          119,
+          0.7486173510551453
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 9271,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with i",
+      "expected_id": 180,
+      "predicted_id": 6913,
+      "expected_similarity": 0.32639050483703613,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6913,
+          0.32639050483703613
+        ],
+        [
+          9458,
+          0.3180025815963745
+        ],
+        [
+          1801,
+          0.3102526068687439
+        ]
+      ]
+    },
+    {
+      "query": "Depression has been weighing heavily on me, and I aspire to gain insights and develop skills to alle...",
+      "expected_id": 5682,
+      "predicted_id": 2016,
+      "expected_similarity": 0.6956453919410706,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2016,
+          0.6956453919410706
+        ],
+        [
+          1721,
+          0.6938974857330322
+        ],
+        [
+          2728,
+          0.6938228607177734
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with in",
+      "expected_id": 7209,
+      "predicted_id": 6916,
+      "expected_similarity": 0.3050622344017029,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6916,
+          0.3050622344017029
+        ],
+        [
+          1231,
+          0.30219268798828125
+        ],
+        [
+          720,
+          0.3018227815628052
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1129,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 1871,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2789,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 4794,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5865,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "Stress has become a widespread issue in my life, and I am seeking guidance on managing its impact.",
+      "expected_id": 6837,
+      "predicted_id": 5077,
+      "expected_similarity": 0.833254337310791,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          5077,
+          0.833254337310791
+        ],
+        [
+          5627,
+          0.8323194980621338
+        ],
+        [
+          771,
+          0.817790150642395
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5911,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 264,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 5684,
+      "predicted_id": 7838,
+      "expected_similarity": 0.8221142888069153,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          7838,
+          0.8221142888069153
+        ],
+        [
+          8888,
+          0.8120489716529846
+        ],
+        [
+          3025,
+          0.80623459815979
+        ]
+      ]
+    },
+    {
+      "query": "My main objective for counseling is to regain a sense of self-worth and overcome the constant feelin...",
+      "expected_id": 4656,
+      "predicted_id": 2752,
+      "expected_similarity": 0.7536475658416748,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2752,
+          0.7536475658416748
+        ],
+        [
+          87,
+          0.7352185845375061
+        ],
+        [
+          9088,
+          0.7329538464546204
+        ]
+      ]
+    },
+    {
+      "query": "I can't stop worrying about things",
+      "expected_id": 3740,
+      "predicted_id": 6542,
+      "expected_similarity": 0.7579363584518433,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6542,
+          0.7579363584518433
+        ],
+        [
+          5790,
+          0.6883307695388794
+        ],
+        [
+          4591,
+          0.6828347444534302
+        ]
+      ]
+    },
+    {
+      "query": "Hello, I want to talk about my ongoing battle with depression today.",
+      "expected_id": 5117,
+      "predicted_id": 2118,
+      "expected_similarity": 0.7324738502502441,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2118,
+          0.7324738502502441
+        ],
+        [
+          4657,
+          0.7292574048042297
+        ],
+        [
+          6303,
+          0.7277059555053711
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 888,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I'm feeling nervous and worried all the time",
+      "expected_id": 3822,
+      "predicted_id": 6669,
+      "expected_similarity": 0.6471132040023804,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.6471132040023804
+        ],
+        [
+          699,
+          0.6312494277954102
+        ],
+        [
+          4696,
+          0.606309175491333
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really overwhelmed lately and it's affecting my day-to-day life.",
+      "expected_id": 3114,
+      "predicted_id": 207,
+      "expected_similarity": 0.7631301283836365,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          207,
+          0.7631301283836365
+        ],
+        [
+          6682,
+          0.7576563358306885
+        ],
+        [
+          5609,
+          0.7441481947898865
+        ]
+      ]
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 6771,
+      "predicted_id": 701,
+      "expected_similarity": 0.6257765293121338,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          701,
+          0.6257765293121338
+        ],
+        [
+          1512,
+          0.6163824796676636
+        ],
+        [
+          6685,
+          0.6133273839950562
+        ]
+      ]
+    },
+    {
+      "query": "Seeking counseling, I find myself struggling with maintaining healthy relationships in various areas...",
+      "expected_id": 7640,
+      "predicted_id": 9574,
+      "expected_similarity": 0.7994284629821777,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          9574,
+          0.7994284629821777
+        ],
+        [
+          8881,
+          0.7896169424057007
+        ],
+        [
+          8397,
+          0.7739909291267395
+        ]
+      ]
+    },
+    {
+      "query": "I have always felt confused about my sexuality and it has caused me a great deal of distress.",
+      "expected_id": 346,
+      "predicted_id": 9014,
+      "expected_similarity": 0.8300265073776245,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          9014,
+          0.8300265073776245
+        ],
+        [
+          378,
+          0.7625918984413147
+        ],
+        [
+          599,
+          0.7600295543670654
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 4431,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6765,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Hey there, stress has become a constant companion in my life and I want to learn healthier ways of m...",
+      "expected_id": 6389,
+      "predicted_id": 2090,
+      "expected_similarity": 0.7302485704421997,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2090,
+          0.7302485704421997
+        ],
+        [
+          1416,
+          0.7102190852165222
+        ],
+        [
+          6697,
+          0.6776231527328491
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2972,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3817,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with \"my",
+      "expected_id": 8564,
+      "predicted_id": 8274,
+      "expected_similarity": 0.34174031019210815,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          8274,
+          0.34174031019210815
+        ],
+        [
+          5657,
+          0.34153658151626587
+        ],
+        [
+          7860,
+          0.3410452604293823
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 7782,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "\"My anxiety seems to fluctuate between manageable and unbearable, but lately, it's leaning more towa...",
+      "expected_id": 4851,
+      "predicted_id": 9234,
+      "expected_similarity": 0.7431200742721558,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          9234,
+          0.7431200742721558
+        ],
+        [
+          7895,
+          0.7356413006782532
+        ],
+        [
+          9335,
+          0.7292733788490295
+        ]
+      ]
+    },
+    {
+      "query": "I need help with in",
+      "expected_id": 816,
+      "predicted_id": 9078,
+      "expected_similarity": 0.20646241307258606,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9078,
+          0.20646241307258606
+        ],
+        [
+          8289,
+          0.20628423988819122
+        ],
+        [
+          9363,
+          0.20043018460273743
+        ]
+      ]
+    },
+    {
+      "query": "Depression has enveloped me, and I'm searching for a way out of this darkness.",
+      "expected_id": 1536,
+      "predicted_id": 4230,
+      "expected_similarity": 0.8380520343780518,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          4230,
+          0.8380520343780518
+        ],
+        [
+          1536,
+          0.8359473943710327
+        ],
+        [
+          1538,
+          0.806767463684082
+        ]
+      ]
+    },
+    {
+      "query": "I'm under too much pressure",
+      "expected_id": 8921,
+      "predicted_id": 6438,
+      "expected_similarity": 0.5488325357437134,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6438,
+          0.5488325357437134
+        ],
+        [
+          1729,
+          0.4982130229473114
+        ],
+        [
+          7155,
+          0.49095237255096436
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 7673,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 2808,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with depression",
+      "expected_id": 5303,
+      "predicted_id": 6919,
+      "expected_similarity": 0.7431449890136719,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6919,
+          0.7431449890136719
+        ],
+        [
+          5975,
+          0.6890012621879578
+        ],
+        [
+          2488,
+          0.6881258487701416
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3872,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "My anxiety often manifests as panic attacks.",
+      "expected_id": 1056,
+      "predicted_id": 2261,
+      "expected_similarity": 0.8726983070373535,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2261,
+          0.8726983070373535
+        ],
+        [
+          1153,
+          0.8599103689193726
+        ],
+        [
+          1183,
+          0.829264760017395
+        ]
+      ]
+    },
+    {
+      "query": "I'm under too much pressure",
+      "expected_id": 4047,
+      "predicted_id": 6438,
+      "expected_similarity": 0.5488325357437134,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6438,
+          0.5488325357437134
+        ],
+        [
+          1729,
+          0.4982130229473114
+        ],
+        [
+          7155,
+          0.49095237255096436
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 1554,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I need help with i've",
+      "expected_id": 392,
+      "predicted_id": 9078,
+      "expected_similarity": 0.2897544503211975,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9078,
+          0.2897544503211975
+        ],
+        [
+          4760,
+          0.28885579109191895
+        ],
+        [
+          8623,
+          0.25887149572372437
+        ]
+      ]
+    },
+    {
+      "query": "As a new parent, I find myself constantly questioning whether I'm doing things right.",
+      "expected_id": 457,
+      "predicted_id": 490,
+      "expected_similarity": 0.7858821153640747,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          490,
+          0.7858821153640747
+        ],
+        [
+          453,
+          0.7548651099205017
+        ],
+        [
+          8493,
+          0.7172085046768188
+        ]
+      ]
+    },
+    {
+      "query": "Hello, I'd like to discuss something related to human sexuality during this counseling session.",
+      "expected_id": 7517,
+      "predicted_id": 7171,
+      "expected_similarity": 0.8017489314079285,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          7171,
+          0.8017489314079285
+        ],
+        [
+          8237,
+          0.7704177498817444
+        ],
+        [
+          9389,
+          0.7668229937553406
+        ]
+      ]
+    },
+    {
+      "query": "\"I've been dealing with depression for several years now, but recently it has worsened.",
+      "expected_id": 6535,
+      "predicted_id": 7992,
+      "expected_similarity": 0.7895306348800659,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          7992,
+          0.7895306348800659
+        ],
+        [
+          5170,
+          0.7770371437072754
+        ],
+        [
+          5302,
+          0.7717794179916382
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 884,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Depression has been consuming my life, and I hope to find relief through this counseling session.",
+      "expected_id": 9053,
+      "predicted_id": 846,
+      "expected_similarity": 0.815619945526123,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          846,
+          0.815619945526123
+        ],
+        [
+          4959,
+          0.8067936301231384
+        ],
+        [
+          1122,
+          0.8050291538238525
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 5815,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Lately, I've been experiencing intense anxiety that makes it hard for me to engage in normal social ...",
+      "expected_id": 5982,
+      "predicted_id": 1943,
+      "expected_similarity": 0.8244298696517944,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          1943,
+          0.8244298696517944
+        ],
+        [
+          3729,
+          0.823907732963562
+        ],
+        [
+          4796,
+          0.8192111253738403
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6930,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with social?",
+      "expected_id": 7587,
+      "predicted_id": 545,
+      "expected_similarity": 0.5739461183547974,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          545,
+          0.5739461183547974
+        ],
+        [
+          9363,
+          0.5519876480102539
+        ],
+        [
+          8460,
+          0.5513302087783813
+        ]
+      ]
+    },
+    {
+      "query": "I need help with these",
+      "expected_id": 6452,
+      "predicted_id": 310,
+      "expected_similarity": 0.22550854086875916,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          310,
+          0.22550854086875916
+        ],
+        [
+          2581,
+          0.21582116186618805
+        ],
+        [
+          7682,
+          0.21334028244018555
+        ]
+      ]
+    },
+    {
+      "query": "Can you help me with through?",
+      "expected_id": 7661,
+      "predicted_id": 4760,
+      "expected_similarity": 0.40893372893333435,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          4760,
+          0.40893372893333435
+        ],
+        [
+          8092,
+          0.36487895250320435
+        ],
+        [
+          8877,
+          0.35525020956993103
+        ]
+      ]
+    },
+    {
+      "query": "I can't stop worrying about things",
+      "expected_id": 5360,
+      "predicted_id": 6542,
+      "expected_similarity": 0.7579363584518433,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6542,
+          0.7579363584518433
+        ],
+        [
+          5790,
+          0.6883307695388794
+        ],
+        [
+          4591,
+          0.6828347444534302
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1672,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 4097,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "Lately, my anxiety has been really severe, and it's causing disruptions in almost every aspect of my...",
+      "expected_id": 6216,
+      "predicted_id": 2426,
+      "expected_similarity": 0.7954025268554688,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          2426,
+          0.7954025268554688
+        ],
+        [
+          1425,
+          0.7827399969100952
+        ],
+        [
+          5115,
+          0.7813915610313416
+        ]
+      ]
+    },
+    {
+      "query": "Anxiety often creeps up when I face uncertain situations.",
+      "expected_id": 1111,
+      "predicted_id": 791,
+      "expected_similarity": 0.8158862590789795,
+      "type": "exact_match",
+      "difficulty": "easy",
+      "top_3_predictions": [
+        [
+          791,
+          0.8158862590789795
+        ],
+        [
+          1111,
+          0.8131140470504761
+        ],
+        [
+          1777,
+          0.8044615983963013
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5192,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 8906,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I need help with i'm",
+      "expected_id": 754,
+      "predicted_id": 9210,
+      "expected_similarity": 0.3275497853755951,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9210,
+          0.3275497853755951
+        ],
+        [
+          110,
+          0.32264822721481323
+        ],
+        [
+          298,
+          0.31593209505081177
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 8418,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with lately,",
+      "expected_id": 2538,
+      "predicted_id": 5389,
+      "expected_similarity": 0.45902127027511597,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          5389,
+          0.45902127027511597
+        ],
+        [
+          6919,
+          0.4421316385269165
+        ],
+        [
+          7991,
+          0.4316599667072296
+        ]
+      ]
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5247,
+      "predicted_id": 6669,
+      "expected_similarity": 0.7257548570632935,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          6669,
+          0.7257548570632935
+        ],
+        [
+          5556,
+          0.7017754316329956
+        ],
+        [
+          699,
+          0.7006666660308838
+        ]
+      ]
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2732,
+      "predicted_id": 0,
+      "expected_similarity": 0.6032029390335083,
+      "type": "paraphrase",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          0,
+          0.6032029390335083
+        ],
+        [
+          9219,
+          0.5797576904296875
+        ],
+        [
+          7705,
+          0.57262122631073
+        ]
+      ]
+    },
+    {
+      "query": "I'm struggling with i've",
+      "expected_id": 177,
+      "predicted_id": 9210,
+      "expected_similarity": 0.3125762939453125,
+      "type": "semantic_variation",
+      "difficulty": "medium",
+      "top_3_predictions": [
+        [
+          9210,
+          0.3125762939453125
+        ],
+        [
+          8781,
+          0.3088628649711609
+        ],
+        [
+          8390,
+          0.30697399377822876
+        ]
+      ]
+    }
+  ],
+  "top_matches_analysis": [
+    {
+      "query": "Anxiety has been consuming my thoughts and making it increasingly challenging to carry out daily tas...",
+      "expected_id": 6717,
+      "top_match_id": 4562,
+      "top_match_similarity": 0.7073331475257874,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Depression has left me feeling emotionally numbed and isolated from those around me.",
+      "expected_id": 5356,
+      "top_match_id": 966,
+      "top_match_similarity": 0.7581468224525452,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 207,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm a new parent and I'm feeling overwhelmed with all the responsibilities and challenges that come ...",
+      "expected_id": 7048,
+      "top_match_id": 8032,
+      "top_match_similarity": 0.773621678352356,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "When faced with situations that trigger my anxiety, I try to practice grounding techniques such as f...",
+      "expected_id": 1078,
+      "top_match_id": 1078,
+      "top_match_similarity": 0.864774227142334,
+      "is_correct": true,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 5212,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with lately,",
+      "expected_id": 8228,
+      "top_match_id": 6919,
+      "top_match_similarity": 0.38444530963897705,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with depression",
+      "expected_id": 9349,
+      "top_match_id": 6919,
+      "top_match_similarity": 0.7431449890136719,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I feel like I'm always sad",
+      "expected_id": 8709,
+      "top_match_id": 4220,
+      "top_match_similarity": 0.6449025869369507,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with i?",
+      "expected_id": 2886,
+      "top_match_id": 8410,
+      "top_match_similarity": 0.3358103036880493,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with in?",
+      "expected_id": 7217,
+      "top_match_id": 8007,
+      "top_match_similarity": 0.2984951138496399,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with i've?",
+      "expected_id": 7248,
+      "top_match_id": 8402,
+      "top_match_similarity": 0.33125028014183044,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 9678,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I often struggle with intrusive thoughts and excessive worry about things beyond my control.",
+      "expected_id": 5653,
+      "top_match_id": 3415,
+      "top_match_similarity": 0.8332194089889526,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 920,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 9138,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 3792,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 6001,
+      "top_match_id": 701,
+      "top_match_similarity": 0.6257765293121338,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6978,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 2963,
+      "top_match_id": 7838,
+      "top_match_similarity": 0.8221142888069153,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6951,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Lately, I've noticed that I have a tendency to procrastinate on important tasks, which is hindering ...",
+      "expected_id": 568,
+      "top_match_id": 568,
+      "top_match_similarity": 0.7803269624710083,
+      "is_correct": true,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Nothing makes me happy anymore",
+      "expected_id": 3641,
+      "top_match_id": 4222,
+      "top_match_similarity": 0.6175518035888672,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Everything is stressing me out",
+      "expected_id": 2158,
+      "top_match_id": 1640,
+      "top_match_similarity": 0.6996041536331177,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1542,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 8790,
+      "top_match_id": 701,
+      "top_match_similarity": 0.6257765293121338,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Everything is stressing me out",
+      "expected_id": 3645,
+      "top_match_id": 1640,
+      "top_match_similarity": 0.6996041536331177,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 6490,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Anxiety continues to hold me hostage, affecting every decision and aspect of my life.",
+      "expected_id": 2373,
+      "top_match_id": 1035,
+      "top_match_similarity": 0.8121062517166138,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Can you help me with i?",
+      "expected_id": 4735,
+      "top_match_id": 8410,
+      "top_match_similarity": 0.3358103036880493,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I am struggling to make behavioral changes related to my disordered eating habits, and I hope that t...",
+      "expected_id": 9608,
+      "top_match_id": 8461,
+      "top_match_similarity": 0.6999343633651733,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 4100,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with lately,",
+      "expected_id": 3252,
+      "top_match_id": 6919,
+      "top_match_similarity": 0.38444530963897705,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 1131,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "As a new parent, I am experiencing feelings of overwhelm and self-doubt.",
+      "expected_id": 7282,
+      "top_match_id": 413,
+      "top_match_similarity": 0.7852600812911987,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Deep-rooted sadness seems to have settled within me for an extended period.",
+      "expected_id": 2251,
+      "top_match_id": 2251,
+      "top_match_similarity": 0.8409186005592346,
+      "is_correct": true,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 6259,
+      "top_match_id": 3688,
+      "top_match_similarity": 0.7572409510612488,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with hello,",
+      "expected_id": 3497,
+      "top_match_id": 6916,
+      "top_match_similarity": 0.3302086591720581,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2476,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with every?",
+      "expected_id": 2535,
+      "top_match_id": 8691,
+      "top_match_similarity": 0.31527552008628845,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 516,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with recently,",
+      "expected_id": 2809,
+      "top_match_id": 5505,
+      "top_match_similarity": 0.3941038250923157,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 4504,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with as",
+      "expected_id": 372,
+      "top_match_id": 324,
+      "top_match_similarity": 0.41501331329345703,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I can't stop worrying about things",
+      "expected_id": 4329,
+      "top_match_id": 6542,
+      "top_match_similarity": 0.7579363584518433,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 3576,
+      "top_match_id": 3688,
+      "top_match_similarity": 0.7572409510612488,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6858,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1553,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with i",
+      "expected_id": 2882,
+      "top_match_id": 4760,
+      "top_match_similarity": 0.2579733729362488,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3231,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 8875,
+      "top_match_id": 3688,
+      "top_match_similarity": 0.7572409510612488,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with i've?",
+      "expected_id": 332,
+      "top_match_id": 8402,
+      "top_match_similarity": 0.33125028014183044,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with my",
+      "expected_id": 8,
+      "top_match_id": 298,
+      "top_match_similarity": 0.349046528339386,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Everything is stressing me out",
+      "expected_id": 2942,
+      "top_match_id": 1640,
+      "top_match_similarity": 0.6996041536331177,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with every?",
+      "expected_id": 4192,
+      "top_match_id": 8691,
+      "top_match_similarity": 0.31527552008628845,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I can't handle the stress anymore",
+      "expected_id": 3157,
+      "top_match_id": 3688,
+      "top_match_similarity": 0.7572409510612488,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 1315,
+      "top_match_id": 701,
+      "top_match_similarity": 0.6257765293121338,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 2474,
+      "top_match_id": 7838,
+      "top_match_similarity": 0.8221142888069153,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 7735,
+      "top_match_id": 7838,
+      "top_match_similarity": 0.8221142888069153,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with over",
+      "expected_id": 1366,
+      "top_match_id": 7845,
+      "top_match_similarity": 0.36602845788002014,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with i've?",
+      "expected_id": 313,
+      "top_match_id": 8402,
+      "top_match_similarity": 0.33125028014183044,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "\"My marriage has hit a rough patch recently.",
+      "expected_id": 6964,
+      "top_match_id": 9038,
+      "top_match_similarity": 0.7446732521057129,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 8096,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with i?",
+      "expected_id": 657,
+      "top_match_id": 8410,
+      "top_match_similarity": 0.3358103036880493,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Lately, anxiety has consumed my thoughts and actions at an alarming rate.",
+      "expected_id": 5829,
+      "top_match_id": 2144,
+      "top_match_similarity": 0.7906104922294617,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Hello, I hope our counseling sessions can assist me with some parenting challenges I've been facing.",
+      "expected_id": 9381,
+      "top_match_id": 8874,
+      "top_match_similarity": 0.7804064750671387,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 4274,
+      "top_match_id": 701,
+      "top_match_similarity": 0.6257765293121338,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 748,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with \"my?",
+      "expected_id": 8905,
+      "top_match_id": 7860,
+      "top_match_similarity": 0.38757261633872986,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm under too much pressure",
+      "expected_id": 3491,
+      "top_match_id": 6438,
+      "top_match_similarity": 0.5488325357437134,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Hey counselor, stress has been weighing me down lately, and I hope this counseling session can provi...",
+      "expected_id": 3582,
+      "top_match_id": 793,
+      "top_match_similarity": 0.8195289373397827,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2008,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with for?",
+      "expected_id": 2599,
+      "top_match_id": 8308,
+      "top_match_similarity": 0.2925006151199341,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with i",
+      "expected_id": 8948,
+      "top_match_id": 4760,
+      "top_match_similarity": 0.2579733729362488,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with \"intimacy",
+      "expected_id": 8392,
+      "top_match_id": 6916,
+      "top_match_similarity": 0.8048142790794373,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with i've",
+      "expected_id": 4333,
+      "top_match_id": 9210,
+      "top_match_similarity": 0.3125762939453125,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with lately,",
+      "expected_id": 3068,
+      "top_match_id": 6919,
+      "top_match_similarity": 0.38444530963897705,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 7316,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 1347,
+      "top_match_id": 7838,
+      "top_match_similarity": 0.8221142888069153,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I can't seem to get out of bed in the morning",
+      "expected_id": 805,
+      "top_match_id": 1001,
+      "top_match_similarity": 0.5985221266746521,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with the",
+      "expected_id": 8552,
+      "top_match_id": 8289,
+      "top_match_similarity": 0.23158133029937744,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3024,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6568,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Dear mental health professional,\r\nMy goal for today's session is to find effective parenting strateg...",
+      "expected_id": 7372,
+      "top_match_id": 7262,
+      "top_match_similarity": 0.7766661643981934,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6868,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with the?",
+      "expected_id": 885,
+      "top_match_id": 9181,
+      "top_match_similarity": 0.2494322508573532,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 8344,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 5466,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Lately, I've been experiencing a deep sadness that seems to linger no matter what I do.",
+      "expected_id": 1730,
+      "top_match_id": 6725,
+      "top_match_similarity": 0.7902321219444275,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2713,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "\"Every day feels like a battle against invisible fears and worries.",
+      "expected_id": 6532,
+      "top_match_id": 5812,
+      "top_match_similarity": 0.6577306389808655,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Every time I think about social situations or meeting new people, I become incredibly anxious.",
+      "expected_id": 4651,
+      "top_match_id": 4216,
+      "top_match_similarity": 0.8323309421539307,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I'm having trouble sleeping",
+      "expected_id": 415,
+      "top_match_id": 8915,
+      "top_match_similarity": 0.624091386795044,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 6340,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Everything feels overwhelming lately.",
+      "expected_id": 4464,
+      "top_match_id": 5797,
+      "top_match_similarity": 0.611190915107727,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I'm struggling with \"i",
+      "expected_id": 7344,
+      "top_match_id": 9458,
+      "top_match_similarity": 0.38996177911758423,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with greetings,?",
+      "expected_id": 4146,
+      "top_match_id": 4930,
+      "top_match_similarity": 0.3790068030357361,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3354,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 685,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5935,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 8792,
+      "top_match_id": 7838,
+      "top_match_similarity": 0.8221142888069153,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2931,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5269,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've recently come to realize that I have developed an addiction to alcohol.",
+      "expected_id": 8295,
+      "top_match_id": 657,
+      "top_match_similarity": 0.7252151966094971,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Lately, I've been questioning my beliefs and searching for a deeper sense of meaning in life.",
+      "expected_id": 251,
+      "top_match_id": 174,
+      "top_match_similarity": 0.7668448686599731,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 9271,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with i",
+      "expected_id": 180,
+      "top_match_id": 6913,
+      "top_match_similarity": 0.32639050483703613,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Depression has been weighing heavily on me, and I aspire to gain insights and develop skills to alle...",
+      "expected_id": 5682,
+      "top_match_id": 2016,
+      "top_match_similarity": 0.6956453919410706,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I'm struggling with in",
+      "expected_id": 7209,
+      "top_match_id": 6916,
+      "top_match_similarity": 0.3050622344017029,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1129,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 1871,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2789,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 4794,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5865,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Stress has become a widespread issue in my life, and I am seeking guidance on managing its impact.",
+      "expected_id": 6837,
+      "top_match_id": 5077,
+      "top_match_similarity": 0.833254337310791,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5911,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 264,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety is out of control",
+      "expected_id": 5684,
+      "top_match_id": 7838,
+      "top_match_similarity": 0.8221142888069153,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My main objective for counseling is to regain a sense of self-worth and overcome the constant feelin...",
+      "expected_id": 4656,
+      "top_match_id": 2752,
+      "top_match_similarity": 0.7536475658416748,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I can't stop worrying about things",
+      "expected_id": 3740,
+      "top_match_id": 6542,
+      "top_match_similarity": 0.7579363584518433,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Hello, I want to talk about my ongoing battle with depression today.",
+      "expected_id": 5117,
+      "top_match_id": 2118,
+      "top_match_similarity": 0.7324738502502441,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 888,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm feeling nervous and worried all the time",
+      "expected_id": 3822,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.6471132040023804,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really overwhelmed lately and it's affecting my day-to-day life.",
+      "expected_id": 3114,
+      "top_match_id": 207,
+      "top_match_similarity": 0.7631301283836365,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I feel down and hopeless",
+      "expected_id": 6771,
+      "top_match_id": 701,
+      "top_match_similarity": 0.6257765293121338,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Seeking counseling, I find myself struggling with maintaining healthy relationships in various areas...",
+      "expected_id": 7640,
+      "top_match_id": 9574,
+      "top_match_similarity": 0.7994284629821777,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I have always felt confused about my sexuality and it has caused me a great deal of distress.",
+      "expected_id": 346,
+      "top_match_id": 9014,
+      "top_match_similarity": 0.8300265073776245,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 4431,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Relationships have never come easy to me.",
+      "expected_id": 367,
+      "top_match_id": 367,
+      "top_match_similarity": 0.6684593558311462,
+      "is_correct": true,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6765,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Hey there, stress has become a constant companion in my life and I want to learn healthier ways of m...",
+      "expected_id": 6389,
+      "top_match_id": 2090,
+      "top_match_similarity": 0.7302485704421997,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2972,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3817,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with \"my",
+      "expected_id": 8564,
+      "top_match_id": 8274,
+      "top_match_similarity": 0.34174031019210815,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 7782,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "\"My anxiety seems to fluctuate between manageable and unbearable, but lately, it's leaning more towa...",
+      "expected_id": 4851,
+      "top_match_id": 9234,
+      "top_match_similarity": 0.7431200742721558,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I need help with in",
+      "expected_id": 816,
+      "top_match_id": 9078,
+      "top_match_similarity": 0.20646241307258606,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Depression has enveloped me, and I'm searching for a way out of this darkness.",
+      "expected_id": 1536,
+      "top_match_id": 4230,
+      "top_match_similarity": 0.8380520343780518,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I'm under too much pressure",
+      "expected_id": 8921,
+      "top_match_id": 6438,
+      "top_match_similarity": 0.5488325357437134,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 7673,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 2808,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with depression",
+      "expected_id": 5303,
+      "top_match_id": 6919,
+      "top_match_similarity": 0.7431449890136719,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 3872,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "My anxiety often manifests as panic attacks.",
+      "expected_id": 1056,
+      "top_match_id": 2261,
+      "top_match_similarity": 0.8726983070373535,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I'm under too much pressure",
+      "expected_id": 4047,
+      "top_match_id": 6438,
+      "top_match_similarity": 0.5488325357437134,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 1554,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with i've",
+      "expected_id": 392,
+      "top_match_id": 9078,
+      "top_match_similarity": 0.2897544503211975,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "As a new parent, I find myself constantly questioning whether I'm doing things right.",
+      "expected_id": 457,
+      "top_match_id": 490,
+      "top_match_similarity": 0.7858821153640747,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Hello, I'd like to discuss something related to human sexuality during this counseling session.",
+      "expected_id": 7517,
+      "top_match_id": 7171,
+      "top_match_similarity": 0.8017489314079285,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "\"I've been dealing with depression for several years now, but recently it has worsened.",
+      "expected_id": 6535,
+      "top_match_id": 7992,
+      "top_match_similarity": 0.7895306348800659,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 884,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Depression has been consuming my life, and I hope to find relief through this counseling session.",
+      "expected_id": 9053,
+      "top_match_id": 846,
+      "top_match_similarity": 0.815619945526123,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 5815,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Lately, I've been experiencing intense anxiety that makes it hard for me to engage in normal social ...",
+      "expected_id": 5982,
+      "top_match_id": 1943,
+      "top_match_similarity": 0.8244298696517944,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 6930,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with social?",
+      "expected_id": 7587,
+      "top_match_id": 545,
+      "top_match_similarity": 0.5739461183547974,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with these",
+      "expected_id": 6452,
+      "top_match_id": 310,
+      "top_match_similarity": 0.22550854086875916,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Can you help me with through?",
+      "expected_id": 7661,
+      "top_match_id": 4760,
+      "top_match_similarity": 0.40893372893333435,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I can't stop worrying about things",
+      "expected_id": 5360,
+      "top_match_id": 6542,
+      "top_match_similarity": 0.7579363584518433,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 1672,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 4097,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "Lately, my anxiety has been really severe, and it's causing disruptions in almost every aspect of my...",
+      "expected_id": 6216,
+      "top_match_id": 2426,
+      "top_match_similarity": 0.7954025268554688,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "Anxiety often creeps up when I face uncertain situations.",
+      "expected_id": 1111,
+      "top_match_id": 791,
+      "top_match_similarity": 0.8158862590789795,
+      "is_correct": false,
+      "type": "exact_match",
+      "difficulty": "easy"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5192,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 8906,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I need help with i'm",
+      "expected_id": 754,
+      "top_match_id": 9210,
+      "top_match_similarity": 0.3275497853755951,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 8418,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with lately,",
+      "expected_id": 2538,
+      "top_match_id": 5389,
+      "top_match_similarity": 0.45902127027511597,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I've been feeling really anxious lately",
+      "expected_id": 5247,
+      "top_match_id": 6669,
+      "top_match_similarity": 0.7257548570632935,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I think I might be developing a substance abuse problem",
+      "expected_id": 2732,
+      "top_match_id": 0,
+      "top_match_similarity": 0.6032029390335083,
+      "is_correct": false,
+      "type": "paraphrase",
+      "difficulty": "medium"
+    },
+    {
+      "query": "I'm struggling with i've",
+      "expected_id": 177,
+      "top_match_id": 9210,
+      "top_match_similarity": 0.3125762939453125,
+      "is_correct": false,
+      "type": "semantic_variation",
+      "difficulty": "medium"
+    }
+  ],
+  "threshold_analysis": {
+    "all_similarities": {
+      "mean": 0.6199903760911428,
+      "std": 0.17026960545814077,
+      "min": 0.20646241307258606,
+      "max": 0.8726983070373535
+    },
+    "correct_similarities": {
+      "mean": 0.7886197865009308,
+      "std": 0.0758978998564015,
+      "min": 0.6684593558311462,
+      "max": 0.864774227142334
+    },
+    "incorrect_similarities": {
+      "mean": 0.6159513482968965,
+      "std": 0.16985512351359267,
+      "min": 0.20646241307258606,
+      "max": 0.8726983070373535
+    }
+  }
+}

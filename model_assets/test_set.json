@@ -1,0 +1,327 @@
+[
+  {
+    "query": "Lately, my anxiety has been really severe, and it's causing disruptions in almost every aspect of my...",
+    "expected_faq_id": 6216,
+    "type": "exact_match"
+  },
+  {
+    "query": "My anxiety often manifests as panic attacks.",
+    "expected_faq_id": 1056,
+    "type": "exact_match"
+  },
+  {
+    "query": "Depression has been consuming my life, and I hope to find relief through this counseling session.",
+    "expected_faq_id": 9053,
+    "type": "exact_match"
+  },
+  {
+    "query": "I have always felt confused about my sexuality and it has caused me a great deal of distress.",
+    "expected_faq_id": 346,
+    "type": "exact_match"
+  },
+  {
+    "query": "Depression has left me feeling emotionally numbed and isolated from those around me.",
+    "expected_faq_id": 5356,
+    "type": "exact_match"
+  },
+  {
+    "query": "I've recently come to realize that I have developed an addiction to alcohol.",
+    "expected_faq_id": 8295,
+    "type": "exact_match"
+  },
+  {
+    "query": "Dear mental health professional,\r\nMy goal for today's session is to find effective parenting strateg...",
+    "expected_faq_id": 7372,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hello, I want to talk about my ongoing battle with depression today.",
+    "expected_faq_id": 5117,
+    "type": "exact_match"
+  },
+  {
+    "query": "Anxiety often creeps up when I face uncertain situations.",
+    "expected_faq_id": 1111,
+    "type": "exact_match"
+  },
+  {
+    "query": "As a new parent, I am experiencing feelings of overwhelm and self-doubt.",
+    "expected_faq_id": 7282,
+    "type": "exact_match"
+  },
+  {
+    "query": "Every time I think about social situations or meeting new people, I become incredibly anxious.",
+    "expected_faq_id": 4651,
+    "type": "exact_match"
+  },
+  {
+    "query": "Lately, I've been experiencing a deep sadness that seems to linger no matter what I do.",
+    "expected_faq_id": 1730,
+    "type": "exact_match"
+  },
+  {
+    "query": "\"I've been dealing with depression for several years now, but recently it has worsened.",
+    "expected_faq_id": 6535,
+    "type": "exact_match"
+  },
+  {
+    "query": "Relationships have never come easy to me.",
+    "expected_faq_id": 367,
+    "type": "exact_match"
+  },
+  {
+    "query": "Lately, anxiety has consumed my thoughts and actions at an alarming rate.",
+    "expected_faq_id": 5829,
+    "type": "exact_match"
+  },
+  {
+    "query": "Deep-rooted sadness seems to have settled within me for an extended period.",
+    "expected_faq_id": 2251,
+    "type": "exact_match"
+  },
+  {
+    "query": "I am struggling to make behavioral changes related to my disordered eating habits, and I hope that t...",
+    "expected_faq_id": 9608,
+    "type": "exact_match"
+  },
+  {
+    "query": "\"My anxiety seems to fluctuate between manageable and unbearable, but lately, it's leaning more towa...",
+    "expected_faq_id": 4851,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hey there, stress has become a constant companion in my life and I want to learn healthier ways of m...",
+    "expected_faq_id": 6389,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hey counselor, stress has been weighing me down lately, and I hope this counseling session can provi...",
+    "expected_faq_id": 3582,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hello, I'd like to discuss something related to human sexuality during this counseling session.",
+    "expected_faq_id": 7517,
+    "type": "exact_match"
+  },
+  {
+    "query": "My main objective for counseling is to regain a sense of self-worth and overcome the constant feelin...",
+    "expected_faq_id": 4656,
+    "type": "exact_match"
+  },
+  {
+    "query": "\"My marriage has hit a rough patch recently.",
+    "expected_faq_id": 6964,
+    "type": "exact_match"
+  },
+  {
+    "query": "Lately, I've noticed that I have a tendency to procrastinate on important tasks, which is hindering ...",
+    "expected_faq_id": 568,
+    "type": "exact_match"
+  },
+  {
+    "query": "Lately, I've been questioning my beliefs and searching for a deeper sense of meaning in life.",
+    "expected_faq_id": 251,
+    "type": "exact_match"
+  },
+  {
+    "query": "As a new parent, I find myself constantly questioning whether I'm doing things right.",
+    "expected_faq_id": 457,
+    "type": "exact_match"
+  },
+  {
+    "query": "Anxiety has been consuming my thoughts and making it increasingly challenging to carry out daily tas...",
+    "expected_faq_id": 6717,
+    "type": "exact_match"
+  },
+  {
+    "query": "Anxiety continues to hold me hostage, affecting every decision and aspect of my life.",
+    "expected_faq_id": 2373,
+    "type": "exact_match"
+  },
+  {
+    "query": "Lately, I've been experiencing intense anxiety that makes it hard for me to engage in normal social ...",
+    "expected_faq_id": 5982,
+    "type": "exact_match"
+  },
+  {
+    "query": "Everything feels overwhelming lately.",
+    "expected_faq_id": 4464,
+    "type": "exact_match"
+  },
+  {
+    "query": "Seeking counseling, I find myself struggling with maintaining healthy relationships in various areas...",
+    "expected_faq_id": 7640,
+    "type": "exact_match"
+  },
+  {
+    "query": "Stress has become a widespread issue in my life, and I am seeking guidance on managing its impact.",
+    "expected_faq_id": 6837,
+    "type": "exact_match"
+  },
+  {
+    "query": "\"Every day feels like a battle against invisible fears and worries.",
+    "expected_faq_id": 6532,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hello, I hope our counseling sessions can assist me with some parenting challenges I've been facing.",
+    "expected_faq_id": 9381,
+    "type": "exact_match"
+  },
+  {
+    "query": "Depression has been weighing heavily on me, and I aspire to gain insights and develop skills to alle...",
+    "expected_faq_id": 5682,
+    "type": "exact_match"
+  },
+  {
+    "query": "I'm a new parent and I'm feeling overwhelmed with all the responsibilities and challenges that come ...",
+    "expected_faq_id": 7048,
+    "type": "exact_match"
+  },
+  {
+    "query": "Depression has enveloped me, and I'm searching for a way out of this darkness.",
+    "expected_faq_id": 1536,
+    "type": "exact_match"
+  },
+  {
+    "query": "I often struggle with intrusive thoughts and excessive worry about things beyond my control.",
+    "expected_faq_id": 5653,
+    "type": "exact_match"
+  },
+  {
+    "query": "I've been feeling really overwhelmed lately and it's affecting my day-to-day life.",
+    "expected_faq_id": 3114,
+    "type": "exact_match"
+  },
+  {
+    "query": "When faced with situations that trigger my anxiety, I try to practice grounding techniques such as f...",
+    "expected_faq_id": 1078,
+    "type": "exact_match"
+  },
+  {
+    "query": "My anxiety often manifests in physical symptoms such as frequent headaches, nausea, and muscle tensi...",
+    "expected_faq_id": 6199,
+    "type": "exact_match"
+  },
+  {
+    "query": "\"Relationships have always been challenging for me.",
+    "expected_faq_id": 8348,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hi, I'm really struggling with anxiety and it's affecting my daily life.",
+    "expected_faq_id": 7318,
+    "type": "exact_match"
+  },
+  {
+    "query": "My journey through depression has been exhausting, both mentally and emotionally.",
+    "expected_faq_id": 6214,
+    "type": "exact_match"
+  },
+  {
+    "query": "Good day, I'm looking for assistance in navigating through the emotional fallout caused by past trau...",
+    "expected_faq_id": 7507,
+    "type": "exact_match"
+  },
+  {
+    "query": "Doctor, I feel so overwhelmed all the time.",
+    "expected_faq_id": 8315,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hi, today I want to discuss my ongoing struggle with anxiety and seek guidance on managing this over...",
+    "expected_faq_id": 5702,
+    "type": "exact_match"
+  },
+  {
+    "query": "Hi counselor.",
+    "expected_faq_id": 2456,
+    "type": "exact_match"
+  },
+  {
+    "query": "I've realized that I need to make some behavioral changes in my life.",
+    "expected_faq_id": 647,
+    "type": "exact_match"
+  },
+  {
+    "query": "I feel on edge all the time, like something bad is going to happen any second.",
+    "expected_faq_id": 3032,
+    "type": "exact_match"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 0,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 719,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I can't seem to get out of bed in the morning",
+    "expected_faq_id": 1001,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I feel like I'm always sad",
+    "expected_faq_id": 605,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I'm having trouble sleeping",
+    "expected_faq_id": 381,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I feel overwhelmed by everything",
+    "expected_faq_id": 7781,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I don't want to see anyone",
+    "expected_faq_id": 190,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I keep having negative thoughts",
+    "expected_faq_id": 5293,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I'm not eating properly",
+    "expected_faq_id": 9038,
+    "type": "paraphrase"
+  },
+  {
+    "query": "I feel like giving up",
+    "expected_faq_id": 67,
+    "type": "paraphrase"
+  },
+  {
+    "query": "",
+    "expected_faq_id": null,
+    "type": "empty_query"
+  },
+  {
+    "query": "hello",
+    "expected_faq_id": null,
+    "type": "greeting"
+  },
+  {
+    "query": "thank you",
+    "expected_faq_id": null,
+    "type": "gratitude"
+  },
+  {
+    "query": "what is mental health?",
+    "expected_faq_id": null,
+    "type": "general_question"
+  },
+  {
+    "query": "how do I get help?",
+    "expected_faq_id": null,
+    "type": "help_request"
+  }
+]

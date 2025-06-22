@@ -1,0 +1,1088 @@
+[
+  {
+    "query": "Anxiety has been consuming my thoughts and making it increasingly challenging to carry out daily tas...",
+    "expected_faq_id": 6717,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Depression has left me feeling emotionally numbed and isolated from those around me.",
+    "expected_faq_id": 5356,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 207,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm a new parent and I'm feeling overwhelmed with all the responsibilities and challenges that come ...",
+    "expected_faq_id": 7048,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do I get help?",
+    "expected_faq_id": null,
+    "type": "help_request",
+    "difficulty": "hard"
+  },
+  {
+    "query": "When faced with situations that trigger my anxiety, I try to practice grounding techniques such as f...",
+    "expected_faq_id": 1078,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 5212,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with lately,",
+    "expected_faq_id": 8228,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with depression",
+    "expected_faq_id": 9349,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I feel like I'm always sad",
+    "expected_faq_id": 8709,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with i?",
+    "expected_faq_id": 2886,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with in?",
+    "expected_faq_id": 7217,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with i've?",
+    "expected_faq_id": 7248,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 9678,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I often struggle with intrusive thoughts and excessive worry about things beyond my control.",
+    "expected_faq_id": 5653,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 920,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 9138,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 3792,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I feel down and hopeless",
+    "expected_faq_id": 6001,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm fine",
+    "expected_faq_id": null,
+    "type": "denial",
+    "difficulty": "hard"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6978,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety is out of control",
+    "expected_faq_id": 2963,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6951,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Lately, I've noticed that I have a tendency to procrastinate on important tasks, which is hindering ...",
+    "expected_faq_id": 568,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Nothing makes me happy anymore",
+    "expected_faq_id": 3641,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Everything is stressing me out",
+    "expected_faq_id": 2158,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 1542,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I feel down and hopeless",
+    "expected_faq_id": 8790,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Everything is stressing me out",
+    "expected_faq_id": 3645,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 6490,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "what is mental health?",
+    "expected_faq_id": null,
+    "type": "general_question",
+    "difficulty": "hard"
+  },
+  {
+    "query": "Anxiety continues to hold me hostage, affecting every decision and aspect of my life.",
+    "expected_faq_id": 2373,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Can you help me with i?",
+    "expected_faq_id": 4735,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I am struggling to make behavioral changes related to my disordered eating habits, and I hope that t...",
+    "expected_faq_id": 9608,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 4100,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with lately,",
+    "expected_faq_id": 3252,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 1131,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "As a new parent, I am experiencing feelings of overwhelm and self-doubt.",
+    "expected_faq_id": 7282,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Deep-rooted sadness seems to have settled within me for an extended period.",
+    "expected_faq_id": 2251,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I can't handle the stress anymore",
+    "expected_faq_id": 6259,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with hello,",
+    "expected_faq_id": 3497,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2476,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with every?",
+    "expected_faq_id": 2535,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 516,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with recently,",
+    "expected_faq_id": 2809,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 4504,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with as",
+    "expected_faq_id": 372,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I can't stop worrying about things",
+    "expected_faq_id": 4329,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I can't handle the stress anymore",
+    "expected_faq_id": 3576,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6858,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 1553,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with i",
+    "expected_faq_id": 2882,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 3231,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I can't handle the stress anymore",
+    "expected_faq_id": 8875,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with i've?",
+    "expected_faq_id": 332,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with my",
+    "expected_faq_id": 8,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Everything is stressing me out",
+    "expected_faq_id": 2942,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with every?",
+    "expected_faq_id": 4192,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I can't handle the stress anymore",
+    "expected_faq_id": 3157,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I feel down and hopeless",
+    "expected_faq_id": 1315,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety is out of control",
+    "expected_faq_id": 2474,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety is out of control",
+    "expected_faq_id": 7735,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What should I do?",
+    "expected_faq_id": null,
+    "type": "advice_request",
+    "difficulty": "hard"
+  },
+  {
+    "query": "I need help with over",
+    "expected_faq_id": 1366,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with i've?",
+    "expected_faq_id": 313,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "\"My marriage has hit a rough patch recently.",
+    "expected_faq_id": 6964,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 8096,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I don't know what to say",
+    "expected_faq_id": null,
+    "type": "uncertainty",
+    "difficulty": "hard"
+  },
+  {
+    "query": "Can you help me with i?",
+    "expected_faq_id": 657,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Lately, anxiety has consumed my thoughts and actions at an alarming rate.",
+    "expected_faq_id": 5829,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Hello, I hope our counseling sessions can assist me with some parenting challenges I've been facing.",
+    "expected_faq_id": 9381,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I feel down and hopeless",
+    "expected_faq_id": 4274,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 748,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with \"my?",
+    "expected_faq_id": 8905,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm under too much pressure",
+    "expected_faq_id": 3491,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Hey counselor, stress has been weighing me down lately, and I hope this counseling session can provi...",
+    "expected_faq_id": 3582,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2008,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with for?",
+    "expected_faq_id": 2599,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with i",
+    "expected_faq_id": 8948,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with \"intimacy",
+    "expected_faq_id": 8392,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with i've",
+    "expected_faq_id": 4333,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with lately,",
+    "expected_faq_id": 3068,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 7316,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety is out of control",
+    "expected_faq_id": 1347,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I can't seem to get out of bed in the morning",
+    "expected_faq_id": 805,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with the",
+    "expected_faq_id": 8552,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 3024,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6568,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Dear mental health professional,\r\nMy goal for today's session is to find effective parenting strateg...",
+    "expected_faq_id": 7372,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6868,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with the?",
+    "expected_faq_id": 885,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 8344,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 5466,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Lately, I've been experiencing a deep sadness that seems to linger no matter what I do.",
+    "expected_faq_id": 1730,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2713,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "\"Every day feels like a battle against invisible fears and worries.",
+    "expected_faq_id": 6532,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Every time I think about social situations or meeting new people, I become incredibly anxious.",
+    "expected_faq_id": 4651,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I'm having trouble sleeping",
+    "expected_faq_id": 415,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 6340,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Everything feels overwhelming lately.",
+    "expected_faq_id": 4464,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I'm struggling with \"i",
+    "expected_faq_id": 7344,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with greetings,?",
+    "expected_faq_id": 4146,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 3354,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 685,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me?",
+    "expected_faq_id": null,
+    "type": "vague_request",
+    "difficulty": "hard"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 5935,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety is out of control",
+    "expected_faq_id": 8792,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2931,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 5269,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've recently come to realize that I have developed an addiction to alcohol.",
+    "expected_faq_id": 8295,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Lately, I've been questioning my beliefs and searching for a deeper sense of meaning in life.",
+    "expected_faq_id": 251,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 9271,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with i",
+    "expected_faq_id": 180,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Depression has been weighing heavily on me, and I aspire to gain insights and develop skills to alle...",
+    "expected_faq_id": 5682,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I'm struggling with in",
+    "expected_faq_id": 7209,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 1129,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 1871,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2789,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 4794,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 5865,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Stress has become a widespread issue in my life, and I am seeking guidance on managing its impact.",
+    "expected_faq_id": 6837,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 5911,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 264,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety is out of control",
+    "expected_faq_id": 5684,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My main objective for counseling is to regain a sense of self-worth and overcome the constant feelin...",
+    "expected_faq_id": 4656,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I can't stop worrying about things",
+    "expected_faq_id": 3740,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Hello, I want to talk about my ongoing battle with depression today.",
+    "expected_faq_id": 5117,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 888,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm feeling nervous and worried all the time",
+    "expected_faq_id": 3822,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really overwhelmed lately and it's affecting my day-to-day life.",
+    "expected_faq_id": 3114,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I need therapy",
+    "expected_faq_id": null,
+    "type": "therapy_request",
+    "difficulty": "hard"
+  },
+  {
+    "query": "I feel down and hopeless",
+    "expected_faq_id": 6771,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Seeking counseling, I find myself struggling with maintaining healthy relationships in various areas...",
+    "expected_faq_id": 7640,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I have always felt confused about my sexuality and it has caused me a great deal of distress.",
+    "expected_faq_id": 346,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 4431,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Relationships have never come easy to me.",
+    "expected_faq_id": 367,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6765,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Hey there, stress has become a constant companion in my life and I want to learn healthier ways of m...",
+    "expected_faq_id": 6389,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "thank you",
+    "expected_faq_id": null,
+    "type": "gratitude",
+    "difficulty": "hard"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2972,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 3817,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with \"my",
+    "expected_faq_id": 8564,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 7782,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "hello",
+    "expected_faq_id": null,
+    "type": "greeting",
+    "difficulty": "hard"
+  },
+  {
+    "query": "\"My anxiety seems to fluctuate between manageable and unbearable, but lately, it's leaning more towa...",
+    "expected_faq_id": 4851,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I need help with in",
+    "expected_faq_id": 816,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Depression has enveloped me, and I'm searching for a way out of this darkness.",
+    "expected_faq_id": 1536,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I'm under too much pressure",
+    "expected_faq_id": 8921,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "",
+    "expected_faq_id": null,
+    "type": "empty_query",
+    "difficulty": "hard"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 7673,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 2808,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with depression",
+    "expected_faq_id": 5303,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 3872,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "My anxiety often manifests as panic attacks.",
+    "expected_faq_id": 1056,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I'm under too much pressure",
+    "expected_faq_id": 4047,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 1554,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with i've",
+    "expected_faq_id": 392,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "As a new parent, I find myself constantly questioning whether I'm doing things right.",
+    "expected_faq_id": 457,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Hello, I'd like to discuss something related to human sexuality during this counseling session.",
+    "expected_faq_id": 7517,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "\"I've been dealing with depression for several years now, but recently it has worsened.",
+    "expected_faq_id": 6535,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 884,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Depression has been consuming my life, and I hope to find relief through this counseling session.",
+    "expected_faq_id": 9053,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 5815,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Lately, I've been experiencing intense anxiety that makes it hard for me to engage in normal social ...",
+    "expected_faq_id": 5982,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 6930,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with social?",
+    "expected_faq_id": 7587,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with these",
+    "expected_faq_id": 6452,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Can you help me with through?",
+    "expected_faq_id": 7661,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I can't stop worrying about things",
+    "expected_faq_id": 5360,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 1672,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 4097,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Lately, my anxiety has been really severe, and it's causing disruptions in almost every aspect of my...",
+    "expected_faq_id": 6216,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Anxiety often creeps up when I face uncertain situations.",
+    "expected_faq_id": 1111,
+    "type": "exact_match",
+    "difficulty": "easy"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 5192,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 8906,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I need help with i'm",
+    "expected_faq_id": 754,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 8418,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with lately,",
+    "expected_faq_id": 2538,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I've been feeling really anxious lately",
+    "expected_faq_id": 5247,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I think I might be developing a substance abuse problem",
+    "expected_faq_id": 2732,
+    "type": "paraphrase",
+    "difficulty": "medium"
+  },
+  {
+    "query": "I'm struggling with i've",
+    "expected_faq_id": 177,
+    "type": "semantic_variation",
+    "difficulty": "medium"
+  }
+]
